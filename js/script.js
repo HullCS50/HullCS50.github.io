@@ -28,7 +28,7 @@
     pauseOnFocus: false,
     pauseOnHover: false
   });
-  $('.hero-slider').slickAnimation();
+//  $('.hero-slider').slickAnimation();
 
 
   /* ========================================================================= */
@@ -93,13 +93,14 @@
   /* ========================================================================= */
   /*	Company Slider Carousel
   /* =========================================================================  */
-  $('.company-gallery').slick({
+  $('.index-gallery').slick({
     infinite: true,
     arrows: false,
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 5,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    variableWidth: true
   });
 
 
